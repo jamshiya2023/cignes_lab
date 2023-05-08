@@ -1,0 +1,60 @@
+#printable .expense_modal {
+    width: 21cm;
+    height: 29.7cm;
+    position: relative;
+}
+#printable {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: table !important;
+}
+#printable .expense_modal {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+}
+#printable .expense_modal .table {
+    border-color: #c1c1c1 !important;
+    max-width: 100% !important;
+}
+#printable .expense_modal .table {
+    width: 100% !important;
+    margin-bottom: 1rem !important;
+    color: #212529 !important;
+    vertical-align: top !important;
+    border-color: #dee2e6 !important;
+    print-color-adjust: exact !important;
+}
+#printable .expense_modal table {
+    caption-side: bottom !important;
+    border-collapse: collapse !important;
+}
+#printable .expense_modal .table tr td {
+    border-color: #c1c1c1 !important;
+    color: #525252 !important;
+    padding: 0.8rem 0.6rem !important;
+    print-color-adjust: exact !important;
+}
+#printable .expense_modal .text-end {
+    text-align: right !important;
+}
+#printable .date_section {
+    display: block !important;
+}
+#printable .expense_modal .text-success {
+    color: #198754 !important;
+    print-color-adjust: exact !important;
+    display: block !important;
+}
+#printable .expense_modal strong {
+    font-weight: bolder !important;
+}
+#printable .expense_modal .table tr th {
+    color: #252525 !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+    print-color-adjust: exact !important;
+}
+#printable .expense_modal .table.table-striped > tbody > tr:nth-of-type(odd) > * {
+    color: #363535 !important;
+    print-color-adjust: exact !important;
+}
